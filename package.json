@@ -1,7 +1,7 @@
 {
-  "name": "yilia",
+  "name": "halo-theme-yilia",
   "version": "4.0.0",
-  "description": "a theme for hexo",
+  "description": "a theme for halo",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "webpack",
@@ -9,19 +9,18 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/litten/hexo-theme-yilia.git"
+    "url": "git+https://github.com/halo-dev/halo-theme-yilia.git"
   },
   "keywords": [
-    "hexo",
     "theme",
     "blog"
   ],
   "author": "litten",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/litten/hexo-theme-yilia/issues"
+    "url": "https://github.com/halo-dev/halo-theme-yilia/issues"
   },
-  "homepage": "https://github.com/litten/hexo-theme-yilia#readme",
+  "homepage": "https://github.com/halo-dev/halo-theme-yilia#readme",
   "devDependencies": {
     "autoprefixer": "^6.5.1",
     "clean-webpack-plugin": "^0.1.15",

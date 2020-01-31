@@ -31,7 +31,7 @@
     </div></section>
   <% } %>
 
-    <% if (page.total > 1){ %>
+  <% if (page.total > 1){ %>
     <nav id="page-nav">
       <%- paginator({
         prev_text: '&laquo; Prev',

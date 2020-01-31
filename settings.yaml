@@ -1,0 +1,196 @@
+content:
+  label: 文章设置
+  items:
+    excerpt_link:
+      name: excerpt_link
+      label: 截断按钮文字
+      type: text
+      default: 'more'
+      description: '文章太长，截断按钮文字'
+    show_all_link:
+      name: show_all_link
+      label: 文章卡片右下角常驻链接
+      type: text
+      default: '展开全文'
+    mathjax:
+      name: mathjax
+      label: 数学公式
+      type: radio
+      data-type: bool
+      default: false
+      options:
+        - value: true
+          label: 开启
+        - value: false
+          label: 关闭
+    open_in_new:
+      name: open_in_new
+      label: 是否在新窗口打开链接
+      type: radio
+      data-type: bool
+      default: false
+      options:
+        - value: true
+          label: 开启
+        - value: false
+          label: 关闭
+    reward_type:
+      name: reward_type
+      label: 打赏
+      type: radio
+      data-type: bool
+      default: true
+      options:
+        - value: true
+          label: 开启
+        - value: false
+          label: 关闭
+    reward_wording:
+      name: reward_wording
+      label: 打赏 wording
+      type: text
+      default: '谢谢你请我吃糖果'
+    alipay:
+      name: alipay
+      label: 支付宝二维码图片地址
+      type: attachment
+    weixin:
+      name: weixin
+      label: 微信二维码图片地址
+      type: attachment
+    share_jia:
+      name: share_jia
+      label: 是否开启分享
+      type: radio
+      data-type: bool
+      default: true
+      options:
+        - value: true
+          label: 开启
+        - value: false
+          label: 关闭
+style:
+  label: 样式设置
+  items:
+    subtitle:
+      name: subtitle
+      label: 副标题
+      type: text
+    header:
+      name: header
+      label: 头像上面的背景颜色
+      type: color
+      default: '#4d4d4d'
+    slider:
+      name: slider
+      label: 右滑板块背景
+      type: color
+      default: 'linear-gradient(200deg,#a0cfe4,#e8c37e)'
+    slider_showTags:
+      name: slider_showTags
+      label: 是否默认展开 tags 板块
+      type: radio
+      data-type: bool
+      default: false
+      options:
+        - value: true
+          label: 开启
+        - value: false
+          label: 关闭
+subnav:
+  label: 社交设置
+  items:
+    github:
+      name: github
+      label: Github
+      type: text
+    weibo:
+      name: weibo
+      label: 微博
+      type: text
+    zhihu:
+      name: zhihu
+      label: 知乎
+      type: text
+    qq:
+      name: qq
+      label: QQ
+      type: text
+    weixin:
+      name: weixin
+      label: 微信
+      type: text
+    jianshu:
+      name: jianshu
+      label: 简书
+      type: text
+    douban:
+      name: douban
+      label: 豆瓣
+      type: text
+    segmentfault:
+      name: segmentfault
+      label: SegmentFault
+      type: text
+    bilibili:
+      name: bilibili
+      label: bilibili
+      type: text
+    acfun:
+      name: acfun
+      label: AcFun
+      type: text
+    mail:
+      name: mail
+      label: Mail
+      type: text
+    facebook:
+      name: facebook
+      label: Facebook
+      type: text
+    google:
+      name: google
+      label: Google
+      type: text
+    twitter:
+      name: twitter
+      label: Twitter
+      type: text
+    linkedin:
+      name: linkedin
+      label: Linkedin
+      type: text
+
+smart_menu:
+  label: 智能菜单
+  items:
+    smart_menu_enable:
+      name: smart_menu_enable
+      label: 是否开启
+      type: radio
+      data-type: bool
+      default: true
+      options:
+        - value: true
+          label: 开启
+        - value: false
+          label: 关闭
+    innerArchive:
+      name: innerArchive
+      label: 所有文章
+      type: text
+      default: '所有文章'
+    friends:
+      name: friends
+      label: 友链
+      type: text
+      default: '友链'
+    aboutme:
+      name: aboutme
+      label: 关于我
+      type: text
+      default: '关于我'
+
+
+
+
